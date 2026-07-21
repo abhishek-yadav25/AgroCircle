@@ -1,0 +1,60 @@
+.buyer-page{
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.buyer-form{
+    width:100%;
+    max-width:700px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.buyer-form h1{
+    text-align:center;
+    color:#2e7d32;
+}
+
+.buyer-form p{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.buyer-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.buyer-form input,
+.buyer-form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.buyer-form button{
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#2e7d32;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.buyer-form button:disabled{
+    opacity:.7;
+}
+
+.success-message{
+    background:#d4edda;
+    color:#155724;
+    padding:12px;
+    border-radius:8px;
+    margin-bottom:15px;
+    text-align:center;
+}

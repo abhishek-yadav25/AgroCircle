@@ -1,0 +1,23 @@
+.testimonials{
+padding:90px 8%;
+background:white;
+text-align:center;
+}
+
+.review-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.review-card{
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.review-card p{
+margin:20px 0;
+line-height:1.8;
+}

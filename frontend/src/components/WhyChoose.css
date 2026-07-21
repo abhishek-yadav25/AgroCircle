@@ -1,0 +1,28 @@
+.why{
+padding:90px 8%;
+background:#f5fff5;
+text-align:center;
+}
+
+.why h1{
+color:#2E7D32;
+margin-bottom:50px;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.why-card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.why-card:hover{
+transform:translateY(-8px);
+}
